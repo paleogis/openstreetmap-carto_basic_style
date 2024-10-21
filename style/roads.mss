@@ -1,41 +1,42 @@
 /* For the main linear features, such as roads and railways. */
 
-@tertiary-fill: #ffffff;
-@residential-fill: #ffffff;
-@service-fill: @residential-fill;
-@living-street-fill: #ededed;
-@pedestrian-fill: #dddde8;
-@raceway-fill: #ffc0cb;
-@road-fill: #ddd;
-@footway-fill: salmon;
-@footway-fill-noaccess: #bbbbbb;
+@tertiary-fill: #F7F7F7;
+@residential-fill: #F7F7F7;
+@service-fill: #F7F7F7;
+@residential-fill: #F7F7F7;
+@living-street-fill: #F7F7F7;
+@pedestrian-fill: #F7F7F7;
+@raceway-fill: #F7F7F7;
+@road-fill: #F7F7F7;
+@footway-fill: #F7F7F7;
+@footway-fill-noaccess: #F7F7F7;
 @steps-fill: @footway-fill;
-@steps-fill-noaccess: #bbbbbb;
-@cycleway-fill: blue;
-@cycleway-fill-noaccess: #9999ff;
-@bridleway-fill: green;
-@bridleway-fill-noaccess: #aaddaa;
-@track-fill: #996600;
-@track-fill-noaccess: #e2c5bb;
-@platform-fill: #bbbbbb;
-@aeroway-fill: #bbc;
+@steps-fill-noaccess: #F7F7F7;
+@cycleway-fill: #F7F7F7;
+@cycleway-fill-noaccess: #F7F7F7;
+@bridleway-fill: #F7F7F7;
+@bridleway-fill-noaccess: #F7F7F7;
+@track-fill: #F7F7F7;
+@track-fill-noaccess: #F7F7F7;
+@platform-fill: #F7F7F7;
+@aeroway-fill: #F7F7F7;
 @runway-fill: @aeroway-fill;
 @taxiway-fill: @aeroway-fill;
 @helipad-fill: @aeroway-fill;
-@access-marking: #eaeaea;
-@access-marking-primary: #f0f0f0;
-@access-marking-secondary: #e4e4e4;
-@access-marking-white-unpaved: #e0e0e0;
-@access-marking-road: #f0f0f0;
-@access-marking-living-street: #d4d4d4;
+@access-marking: #F7F7F7;
+@access-marking-primary: #F7F7F7;
+@access-marking-secondary: #F7F7F7;
+@access-marking-white-unpaved: #F7F7F7;
+@access-marking-road: #F7F7F7;
+@access-marking-living-street: #F7F7F7;
 
-@default-casing: white;
-@tertiary-casing: #8f8f8f;
-@residential-casing: #bbb;
+@default-casing: #F7F7F7;
+@tertiary-casing: #F7F7F7;
+@residential-casing: #F7F7F7;
 @road-casing: @residential-casing;
 @service-casing: @residential-casing;
 @living-street-casing: @residential-casing;
-@pedestrian-casing: #999;
+@pedestrian-casing: #F7F7F7;
 @path-casing: @default-casing;
 @footway-casing: @default-casing;
 @steps-casing: @default-casing;
@@ -43,19 +44,18 @@
 @bridleway-casing: @default-casing;
 @track-casing: @default-casing;
 
-@tertiary-shield: #3b3b3b;
+@tertiary-shield: #F7F7F7;
 
 @unimportant-road: @residential-casing;
 
-@minor-construction: #aaa;
-@service-construction: #aaa;
+@minor-construction: #F7F7F7;
+@service-construction: #F7F7F7;
+@destination-marking: #F7F7F7;
+@private-marking: #F7F7F7;
+@private-marking-for-red: #F7F7F7;
 
-@destination-marking: #c2e0ff;
-@private-marking: #efa9a9;
-@private-marking-for-red: #C26363;
-
-@tunnel-casing: grey;
-@bridge-casing: black;
+@tunnel-casing: #F7F7F7;
+@bridge-casing: #F7F7F7;
 
 @motorway-tunnel-fill: lighten(@motorway-fill, 10%);
 @trunk-tunnel-fill: lighten(@trunk-fill, 10%);

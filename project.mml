@@ -51,7 +51,7 @@ Stylesheet:
   - style/amenity-points.mss
   - style/ferry-routes.mss
   - style/aerialways.mss
-  - style/admin.mss
+  - style/admin.mss 
   - style/addressing.mss
   - style/golf.mss
   - style/tourism.mss
