@@ -1,4 +1,4 @@
-# OpenStreetMap Carto
+# OpenStreetMap Carto Basic Style
 
 ![screenshot](https://raw.githubusercontent.com/paleogis/openstreetmap-carto_basic_style/refs/heads/master/preview.png)
 
