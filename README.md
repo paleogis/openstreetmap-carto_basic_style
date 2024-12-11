@@ -94,6 +94,7 @@ maps using Mapnik, many based on this project. Some alternatives are:
 * Christoph Hormann [@imagico](https://github.com/imagico)
 * Lukas Sommer [@sommerluk](https://github.com/sommerluk)
 * Joseph Eisenberg [@jeisenbe](https://github.com/jeisenbe)
+* Nikita Lavrentyev [@jeisenbe](https://github.com/paleogis)
 
 ## Previous maintainers
 
