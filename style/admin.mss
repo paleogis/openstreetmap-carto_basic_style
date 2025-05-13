@@ -1,6 +1,6 @@
-@admin-boundaries: #999999; // Lch(47,30,327)
-@admin-boundaries-narrow: #999999; // Lch(42,35,327)
-@admin-boundaries-wide: #999999; // Lch(57,25,327)
+  @admin-boundaries: #999999; // Lch(47,30,327)
+  @admin-boundaries-narrow: #999999; // Lch(42,35,327)
+  @admin-boundaries-wide: #999999; // Lch(57,25,327)
 
 /* For performance reasons, the admin border layers are split into three groups
 for low, middle and high zoom levels.
@@ -10,9 +10,9 @@ Overlapping borders are hidden by a white background line, rendered before each 
 Then all three layers are added to the rendering with comp-op: darken, so that the white lines will not show
 */
 
-  #admin-low-zoom[zoom < 8],
-  #admin-mid-zoom[zoom >= 8][zoom < 13],
-  #admin-high-zoom[zoom >= 13] {
+    #admin-low-zoom[zoom < 8],
+    #admin-mid-zoom[zoom >= 8][zoom < 13],
+    #admin-high-zoom[zoom >= 13] {
    [admin_level = '2']::firstline {
     [zoom >= 8] {
       background/line-join: bevel;

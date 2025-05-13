@@ -62,7 +62,7 @@ sources:
 
   ne_110m_admin_0_boundary_lines_land:
     type: shp
-    url: https://naturalearth.s3.amazonaws.com/110m_cultural/ne_110m_admin_0_boundary_lines_land.zip
+    url: https://gis.big3.ru/media/data_source/9f7aa17f2aa6452ba6f7a838bd4f8cca/ne-110m-admin-0-boundary-lines-land.zip
     file: ne_110m_admin_0_boundary_lines_land.shp
     ogropts: &ne_opts
       - "--config"
